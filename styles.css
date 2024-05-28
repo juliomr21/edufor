@@ -117,6 +117,9 @@ a:hover{
     h4{
         text-align: justify;
     }
+    h5{
+        text-align: justify;
+    }
 }
 .violet-title{
     background: violet;
