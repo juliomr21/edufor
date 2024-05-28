@@ -114,9 +114,15 @@ a:hover{
     display: flex;
     justify-content: space-between;
     gap: 10%;
+    h4{
+        text-align: justify;
+    }
 }
 .violet-title{
     background: violet;
+}
+.violet{
+    width: 45%;
 }
 @media(max-width:461px){
     .info-black-movil{
@@ -124,6 +130,9 @@ a:hover{
     }
     .info-black{
         display: none;
+    }
+    .violet{
+        width: auto;
     }
     .t-flex{
         display: block;
