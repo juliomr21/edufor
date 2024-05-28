@@ -110,12 +110,23 @@ a:hover{
     background: #ffffff;
     display: none;
 }
+.t-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+}
+.violet-title{
+    background: violet;
+}
 @media(max-width:461px){
     .info-black-movil{
         display: block;
     }
     .info-black{
         display: none;
+    }
+    .t-flex{
+        display: block;
     }
     .menu-movil{
         background: #ffffff;
