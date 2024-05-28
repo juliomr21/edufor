@@ -177,3 +177,42 @@ a:hover{
 
     }
 }
+@media(max-height:461px)and (max-width:920px){
+    .info-black-movil{
+        display: block;
+    }
+    .info-black{
+        display: none;
+    }
+    .violet{
+        width: auto;
+    }
+    .t-flex{
+        display: block;
+    }
+    .menu-movil{
+        background: #ffffff;
+        display: flex;
+        padding: 1rem;
+    }
+    .menu{
+        display: none;
+    }
+    .text-x{
+        width: fit-content;margin-left: auto;margin-right: auto;margin-top: 10%;padding: 0 2rem;
+    }
+    .letter-center{
+  
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        text-align: right;
+       
+        line-height: 5px;
+        border-width: 0px;
+        margin: 0px;
+        padding: 9px 0px;
+        letter-spacing: 0px;
+        font-size: 24px;
+       
+    }
+}
